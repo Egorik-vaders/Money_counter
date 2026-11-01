@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  gap: 40px;
+}
+.sumWrapper {
+  display: flex;
+  gap: 10px;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cost{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.operationValue {
+  width: 350px;
+  height: 60px;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.switchButton {
+  width: 140px;
+  height: 45px;
+  background-color: aquamarine;
+  border: 0px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.buttonsWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.outlay{
+   color: red;
+}
+
+.income{
+  color:green;
+}
+
+.operationsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.operation {
+  width: 360px;
+  height: 60px;
+  background-color: lightgray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-around;
+}
